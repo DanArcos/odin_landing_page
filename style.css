@@ -4,9 +4,15 @@
     font-family: Roboto;
 }
 
+body{
+    margin: 0;
+}
+
 .container{
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .white-text-dark{
@@ -26,7 +32,7 @@ ul{
     padding: 0;
     display: flex;
     list-style-type: none;
-    gap: 5px;
+    gap: 10px;
 }
 
 
