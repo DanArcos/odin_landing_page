@@ -9,6 +9,15 @@
     flex-direction: column;
 }
 
+.header{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
 .footer{
     background-color: #1F2937;
     color:white;
