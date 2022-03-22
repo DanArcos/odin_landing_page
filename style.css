@@ -9,16 +9,26 @@
     flex-direction: column;
 }
 
+.white-text-dark{
+    background-color: #1F2937;
+    color:white;
+}
+
 .header{
+    
+
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul{
+    padding: 0;
     display: flex;
     list-style-type: none;
+    gap: 5px;
 }
 
 .footer{
-    background-color: #1F2937;
-    color:white;
+    
 }
