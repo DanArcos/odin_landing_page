@@ -41,6 +41,12 @@ a{
     text-decoration: none;
 }
 
+.intro-top{
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+}
+
 .footer{
     text-align: center;    
 }
