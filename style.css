@@ -21,22 +21,28 @@ body{
 }
 
 .header{
-    
-
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 250px;
 }
 
-ul{
+.header h3{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header ul{
     padding: 0;
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 30px;
 }
 
 
-a{
+.header a {
     color:white;
     text-decoration: none;
 }
@@ -47,13 +53,13 @@ a{
     gap: 15px;
     box-sizing: border-box;
     height:400px;
-    padding: 0 250px;
+    padding: 0 400px;
 }
 
 .intro-container{
     display: flex;
     align-items: center;
-    gap:20px;
+    gap: 50px;
 }
 
 .intro-left h1 {
@@ -209,4 +215,5 @@ a{
 .footer{
     text-align: center;
     padding: 30px;
+    font-size: 24px;
 }
