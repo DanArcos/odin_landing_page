@@ -47,6 +47,45 @@ a{
     gap: 15px;
     box-sizing: border-box;
     height:400px;
+    padding: 0 250px;
+}
+
+.intro-container{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.intro-left h1 {
+    font-size: 48px;
+    margin:0;
+    font-weight: 900;
+}
+
+.intro-left p {
+    font-size: 18px;
+    margin:0;
+}
+
+.intro-left button {
+    font-size: 18px;
+    padding: 8px 25px;
+    margin-top:10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 0;
+}
+
+.intro-right{
+    width: 800px;
+    height:200px;
+    background-color: #8d8d8d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .info-panel{
@@ -70,6 +109,7 @@ a{
 /* Edit the div containing the 4 images */
 .gallery-container{
     display: flex;
+    /* flex-wrap: wrap; */
     gap:50px;
 }
 
